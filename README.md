@@ -1,3 +1,3 @@
 ```shell
-composer require norman-huth/console-make-command
+composer require norman-huth/console-make-command --dev
 ```
