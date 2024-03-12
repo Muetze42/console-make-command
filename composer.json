@@ -1,0 +1,30 @@
+{
+    "name": "norman-huth/console-make-command",
+    "description": "Create a new Artisan command with default name by class name and directory",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NormanHuth\\ConsoleMakeCommand\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Norman Huth",
+            "homepage": "https://huth.it"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NormanHuth\\ConsoleMakeCommand\\PackageServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "laravel/pint": "^1.14"
+    }
+}
